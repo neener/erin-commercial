@@ -19,7 +19,7 @@ a{
 }
 
 div#header{
-	position: absolute;
+	position: relative;
 	margin:0;
 	left:8%;
 	top:5%;
@@ -27,11 +27,9 @@ div#header{
 
 
 div#content{
-	position: absolute;
-	top:1%;
+	position: relative;
+	top:12%;
 	left:8%;
-	-webkit-transform: translateY(15%);
-	transform: translateY(15%);
 }
 
 
@@ -117,18 +115,16 @@ iframe{
 	}
 	
 	div#header{
-		position: absolute;
+		position: relative;
 		margin:0;
-		left:24%;
 		top:5%;
+		left:20%;
 	}
 
 	div#content{
-		position: absolute;
-		top:0;
+		position: relative;
+		top:10%;
 		left:20%;
-		-webkit-transform: translateY(4%);
-		transform: translateY(4%);
 	}
 
 
